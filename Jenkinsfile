@@ -15,7 +15,7 @@ pipeline
                 }
               stage('Deployment')
                 {
-                  step
+                  steps
                     {
                       sh 'cp target/box1.war /home/aksh/Documents/Devops/apache-tomcat-9.0.73/webapps'
                       }
